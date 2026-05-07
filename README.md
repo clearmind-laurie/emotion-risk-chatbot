@@ -244,19 +244,19 @@ High Risk
 
 \## Application Homepage
 
-!\[Homepage](Screenshots/homepage.png)
+![Homepage](Screenshots/homepage.png)
 
 
 
 \## Negative Classification Example
 
-!\[Negative Example](Screenshots/negative.png)
+![Negative Example](Screenshots/negative.png)
 
 
 
 \## High Risk Classification Example
 
-!\[High Risk Example](Screenshots/high_risk.png)
+![High Risk Example](Screenshots/high_risk.png)
 
 
 
