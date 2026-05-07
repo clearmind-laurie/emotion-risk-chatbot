@@ -250,13 +250,13 @@ High Risk
 
 \## Negative Classification Example
 
-!\[Negative Example](screenshots/negative\_result.png)
+!\[Negative Example](screenshots/negative.png)
 
 
 
 \## High Risk Classification Example
 
-!\[High Risk Example](screenshots/high\_risk\_result.png)
+!\[High Risk Example](screenshots/high_risk.png)
 
 
 
