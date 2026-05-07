@@ -238,25 +238,25 @@ High Risk
 
 
 
-\# 🖼 Screenshots
+\# 🖼 screenshots
 
 
 
 \## Application Homepage
 
-!\[Homepage](Screenshots/homepage.png)
+!\[Homepage](screenshots/homepage.png)
 
 
 
 \## Negative Classification Example
 
-!\[Negative Example](Screenshots/negative\_result.png)
+!\[Negative Example](screenshots/negative\_result.png)
 
 
 
 \## High Risk Classification Example
 
-!\[High Risk Example](Screenshots/high\_risk\_result.png)
+!\[High Risk Example](screenshots/high\_risk\_result.png)
 
 
 
