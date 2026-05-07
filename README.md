@@ -38,7 +38,9 @@ The system uses sentence embeddings and a trained machine learning classifier to
 
 After classification, the chatbot generates supportive conversational responses in real time.
 
+## 🌐 Live Demo
 
+Try the app here: [Emotion & Risk Chatbot]([PASTE-YOUR-STREAMLIT-LINK-HERE](https://emotion-risk-chatbot-bqsll5qoiuytv924kw6bdr.streamlit.app/))
 
 \---
 
