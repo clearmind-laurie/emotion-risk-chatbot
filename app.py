@@ -9,7 +9,7 @@ le = joblib.load("label_encoder.pkl")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Page setup
-st.set_page_config(page_title="Emotion & Risk Classifier", page_icon="🧠")
+st.set_page_config(page_title="Emotion Classifier", page_icon="🧠")
 
 st.title("🧠 Emotion & Risk Classification Chatbot")
 
@@ -27,16 +27,20 @@ st.sidebar.write("Built by Laurie Baldwin")
 st.info(
     "This app analyzes emotional tone and contextual relapse-risk language using machine learning."
 )
-
-
 st.markdown(
-    "### Real-time emotional and contextual risk classification powered by NLP"
+    """
+    ### Real-time emotional and contextual risk classification powered by NLP
+    
+    This AI-powered application uses sentence embeddings and machine learning
+    to analyze emotional tone, behavioral indicators, and contextual relapse-risk language.
+    """
 )
-
 # User input
-text = st.text_input("Enter a message to analyze:")
-
-# Chatbot responses
+text = st.text_area(
+    "Enter a message to analyze:",
+    height=150,
+    placeholder="Example: I had cravings today but stayed clean."
+)# Chatbot responses
 responses = {
     "positive": "I'm glad to hear things are feeling positive right now.",
     "neutral": "Thanks for sharing. Want to tell me a little more about your day?",
@@ -45,7 +49,7 @@ responses = {
 }
 
 # Analyze button
-if st.button("Analyze"):
+if st.button("Analyze Message"):
 
     if text.strip() == "":
         st.warning("Please enter some text.")
@@ -74,3 +78,6 @@ if st.button("Analyze"):
             st.warning("Negative emotional state detected")
         else:
             st.success("No risk detected")
+
+st.markdown("---")
+st.caption("Developed by Laurie Baldwin • NLP + Machine Learning Project")
