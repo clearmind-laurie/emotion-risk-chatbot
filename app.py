@@ -11,9 +11,9 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 # Page setup
 st.set_page_config(page_title="Emotion Classifier", page_icon="🧠")
 
-st.title("🧠 Emotion & Risk Classifier")
+st.title("🧠 Emotion & Risk Classification Chatbot")
 
-st.caption("Built with Python, NLP, Sentence Transformers, and Streamlit")
+st.caption("Built with Python, NLP, Sentence Transformers, scikit-learn, and Streamlit")
 
 st.sidebar.title("About")
 
@@ -25,15 +25,17 @@ st.sidebar.info(
 st.sidebar.write("Built by Laurie Baldwin")
 
 st.info(
-    "This project analyzes emotional tone and contextual relapse-risk language using machine learning."
+    "This app analyzes emotional tone and contextual relapse-risk language using machine learning."
 )
+
+Also make sure your input label says:
 
 st.markdown(
     "### Real-time emotional and contextual risk classification powered by NLP"
 )
 
 # User input
-text = st.text_input("Type your text here:")
+text = st.text_input("Enter a message to analyze:")
 
 # Chatbot responses
 responses = {
