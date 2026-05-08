@@ -9,7 +9,7 @@ le = joblib.load("label_encoder.pkl")
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Page setup
-st.set_page_config(page_title="Emotion Classifier", page_icon="🧠")
+st.set_page_config(page_title="Emotion & Risk Classifier", page_icon="🧠")
 
 st.title("🧠 Emotion & Risk Classification Chatbot")
 
@@ -28,7 +28,6 @@ st.info(
     "This app analyzes emotional tone and contextual relapse-risk language using machine learning."
 )
 
-Also make sure your input label says:
 
 st.markdown(
     "### Real-time emotional and contextual risk classification powered by NLP"
